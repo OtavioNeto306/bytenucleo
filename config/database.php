@@ -1,9 +1,9 @@
 <?php
 // Configuração do banco de dados
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'clubinhopro');
-define('DB_USER', 'clubinhopro');
-define('DB_PASS', 'Admin@123');
+define('DB_NAME', 'sql_bytenucleo_g');
+define('DB_USER', 'sql_bytenucleo_g');
+define('DB_PASS', '1ea39def8a0c7');
 
 try {
     $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8mb4", DB_USER, DB_PASS);
