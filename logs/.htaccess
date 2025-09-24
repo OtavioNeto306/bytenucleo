@@ -1,0 +1,3 @@
+# Proteger diretório de logs
+Order Deny,Allow
+Deny from all

@@ -1,0 +1,85 @@
+=== DEBUG COMPRAS DO USUÁRIO ===
+Product ID: 11
+User ID: 6
+Total de registros encontrados: 2
+ID: 39 | Status: completed | Data: 2025-09-10 11:18:05
+ID: 40 | Status: completed | Data: 2025-09-10 11:29:19
+========================
+
+=== DEBUG LIBERAÇÃO GRADUAL ===
+Data/Hora: 13/09/2025 01:11:29
+Product ID: 11
+User ID: 6
+Purchase Date: NÃO ENCONTRADA
+
+Material: Teste de material
+Gradual Release: SIM
+Release Days: 30
+RESULTADO: LIBERADO (sem liberação gradual)
+---
+Material: teste dias
+Gradual Release: SIM
+Release Days: 7
+RESULTADO: LIBERADO (sem liberação gradual)
+---
+=== DEBUG COMPRAS DO USUÁRIO ===
+Product ID: 11
+User ID: 6
+Total de registros encontrados: 2
+ID: 39 | Status: completed | Data: 2025-09-10 11:18:05
+ID: 40 | Status: completed | Data: 2025-09-10 11:29:19
+========================
+
+=== DEBUG LIBERAÇÃO GRADUAL ===
+Data/Hora: 13/09/2025 01:12:55
+Product ID: 11
+User ID: 6
+Purchase Date: 2025-09-10 11:18:05
+
+Material: Teste de material
+Gradual Release: SIM
+Release Days: 30
+Purchase DateTime: 10/09/2025 11:18:05
+Release DateTime: 10/10/2025 11:18:05
+Current DateTime: 13/09/2025 01:12:55
+RESULTADO: BLOQUEADO (ainda não passou do prazo)
+Days Remaining: 28
+---
+Material: teste dias
+Gradual Release: SIM
+Release Days: 7
+Purchase DateTime: 10/09/2025 11:18:05
+Release DateTime: 17/09/2025 11:18:05
+Current DateTime: 13/09/2025 01:12:55
+RESULTADO: BLOQUEADO (ainda não passou do prazo)
+Days Remaining: 5
+---
+=== DEBUG COMPRAS DO USUÁRIO ===
+Product ID: 13
+User ID: 6
+Total de registros encontrados: 0
+========================
+
+=== DEBUG LIBERAÇÃO GRADUAL ===
+Data/Hora: 13/09/2025 01:13:42
+Product ID: 13
+User ID: 6
+Purchase Date: NÃO ENCONTRADA
+
+=== DEBUG COMPRAS DO USUÁRIO ===
+Product ID: 14
+User ID: 6
+Total de registros encontrados: 0
+========================
+
+=== DEBUG LIBERAÇÃO GRADUAL ===
+Data/Hora: 13/09/2025 01:13:49
+Product ID: 14
+User ID: 6
+Purchase Date: NÃO ENCONTRADA
+
+Material: Material de Apoio
+Gradual Release: SIM
+Release Days: 60
+RESULTADO: LIBERADO (sem liberação gradual)
+---

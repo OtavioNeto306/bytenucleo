@@ -1,0 +1,15 @@
+🔄 *Pedido Processando*  
+Olá, *#NOME#!* 😊  
+
+Seu pedido está sendo processado! 🔄 Assim que for concluído, enviaremos uma atualização.  
+*Número do Pedido:* #PEDIDO#  
+*Valor:* #MOEDA_PEDIDO# #VALOR#  
+
+🛒 *Produtos:*  
+#PRODUTOS_E_QUANTIDADE#  
+
+Acompanhe o status em sua conta e, se precisar de ajuda, entre em contato com o suporte.  
+
+📢 *Junte-se à nossa comunidade no WhatsApp:* https://chat.whatsapp.com/KwrgBI8oxm23FcOdxDJsDH  
+
+Estamos à disposição! 🚀
